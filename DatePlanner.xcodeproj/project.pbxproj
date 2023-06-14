@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		CE0EC6FF2A276CF00058967B /* DatePlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EC6FE2A276CF00058967B /* DatePlannerApp.swift */; };
-		CE0EC7012A276CF00058967B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EC7002A276CF00058967B /* ContentView.swift */; };
 		CE0EC7032A276CF00058967B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0EC7022A276CF00058967B /* Assets.xcassets */; };
 		CE0EC7062A276CF00058967B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0EC7052A276CF00058967B /* Preview Assets.xcassets */; };
 		CE0EC7102A276CF10058967B /* DatePlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EC70F2A276CF10058967B /* DatePlannerTests.swift */; };
 		CE0EC71A2A276CF10058967B /* DatePlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EC7192A276CF10058967B /* DatePlannerUITests.swift */; };
 		CE0EC71C2A276CF10058967B /* DatePlannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EC71B2A276CF10058967B /* DatePlannerUITestsLaunchTests.swift */; };
+		CE0EC72A2A276D7B0058967B /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EC7292A276D7B0058967B /* Event.swift */; };
+		CE0EC72E2A276E790058967B /* EventTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EC72D2A276E790058967B /* EventTask.swift */; };
+		CE0EC7322A276F4A0058967B /* EventList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EC7312A276F4A0058967B /* EventList.swift */; };
+		CE0EC7342A2771E30058967B /* EventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EC7332A2771E30058967B /* EventData.swift */; };
+		CE0EC7362A2772670058967B /* ColorOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EC7352A2772670058967B /* ColorOption.swift */; };
+		CE0EC7382A2772990058967B /* CustomLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EC7372A2772990058967B /* CustomLabelStyle.swift */; };
+		CE0EC73A2A2772C90058967B /* EventEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EC7392A2772C90058967B /* EventEditor.swift */; };
+		CE0EC73C2A2772E40058967B /* EventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EC73B2A2772E40058967B /* EventRow.swift */; };
+		CE0EC73E2A27730D0058967B /* EventSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EC73D2A27730D0058967B /* EventSymbols.swift */; };
+		CE0EC7402A2773280058967B /* SymbolPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EC73F2A2773280058967B /* SymbolPicker.swift */; };
+		CE0EC7422A2773400058967B /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EC7412A2773400058967B /* TaskRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +46,6 @@
 /* Begin PBXFileReference section */
 		CE0EC6FB2A276CF00058967B /* DatePlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatePlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0EC6FE2A276CF00058967B /* DatePlannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePlannerApp.swift; sourceTree = "<group>"; };
-		CE0EC7002A276CF00058967B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE0EC7022A276CF00058967B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE0EC7052A276CF00058967B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE0EC70B2A276CF10058967B /* DatePlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatePlannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +53,17 @@
 		CE0EC7152A276CF10058967B /* DatePlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatePlannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0EC7192A276CF10058967B /* DatePlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePlannerUITests.swift; sourceTree = "<group>"; };
 		CE0EC71B2A276CF10058967B /* DatePlannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePlannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE0EC7292A276D7B0058967B /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		CE0EC72D2A276E790058967B /* EventTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTask.swift; sourceTree = "<group>"; };
+		CE0EC7312A276F4A0058967B /* EventList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventList.swift; sourceTree = "<group>"; };
+		CE0EC7332A2771E30058967B /* EventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventData.swift; sourceTree = "<group>"; };
+		CE0EC7352A2772670058967B /* ColorOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorOption.swift; sourceTree = "<group>"; };
+		CE0EC7372A2772990058967B /* CustomLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabelStyle.swift; sourceTree = "<group>"; };
+		CE0EC7392A2772C90058967B /* EventEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEditor.swift; sourceTree = "<group>"; };
+		CE0EC73B2A2772E40058967B /* EventRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRow.swift; sourceTree = "<group>"; };
+		CE0EC73D2A27730D0058967B /* EventSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSymbols.swift; sourceTree = "<group>"; };
+		CE0EC73F2A2773280058967B /* SymbolPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolPicker.swift; sourceTree = "<group>"; };
+		CE0EC7412A2773400058967B /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +94,8 @@
 		CE0EC6F22A276CF00058967B = {
 			isa = PBXGroup;
 			children = (
+				CE0EC7302A276F390058967B /* Views */,
+				CE0EC7282A276D5B0058967B /* DataModel */,
 				CE0EC6FD2A276CF00058967B /* DatePlanner */,
 				CE0EC70E2A276CF10058967B /* DatePlannerTests */,
 				CE0EC7182A276CF10058967B /* DatePlannerUITests */,
@@ -95,7 +117,6 @@
 			isa = PBXGroup;
 			children = (
 				CE0EC6FE2A276CF00058967B /* DatePlannerApp.swift */,
-				CE0EC7002A276CF00058967B /* ContentView.swift */,
 				CE0EC7022A276CF00058967B /* Assets.xcassets */,
 				CE0EC7042A276CF00058967B /* Preview Content */,
 			);
@@ -125,6 +146,31 @@
 				CE0EC71B2A276CF10058967B /* DatePlannerUITestsLaunchTests.swift */,
 			);
 			path = DatePlannerUITests;
+			sourceTree = "<group>";
+		};
+		CE0EC7282A276D5B0058967B /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				CE0EC7292A276D7B0058967B /* Event.swift */,
+				CE0EC72D2A276E790058967B /* EventTask.swift */,
+				CE0EC73D2A27730D0058967B /* EventSymbols.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		CE0EC7302A276F390058967B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE0EC7312A276F4A0058967B /* EventList.swift */,
+				CE0EC7332A2771E30058967B /* EventData.swift */,
+				CE0EC7352A2772670058967B /* ColorOption.swift */,
+				CE0EC7372A2772990058967B /* CustomLabelStyle.swift */,
+				CE0EC7392A2772C90058967B /* EventEditor.swift */,
+				CE0EC73B2A2772E40058967B /* EventRow.swift */,
+				CE0EC73F2A2773280058967B /* SymbolPicker.swift */,
+				CE0EC7412A2773400058967B /* TaskRow.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +303,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE0EC7012A276CF00058967B /* ContentView.swift in Sources */,
+				CE0EC7422A2773400058967B /* TaskRow.swift in Sources */,
+				CE0EC7322A276F4A0058967B /* EventList.swift in Sources */,
+				CE0EC73A2A2772C90058967B /* EventEditor.swift in Sources */,
+				CE0EC7382A2772990058967B /* CustomLabelStyle.swift in Sources */,
+				CE0EC7342A2771E30058967B /* EventData.swift in Sources */,
+				CE0EC73E2A27730D0058967B /* EventSymbols.swift in Sources */,
+				CE0EC72A2A276D7B0058967B /* Event.swift in Sources */,
+				CE0EC72E2A276E790058967B /* EventTask.swift in Sources */,
+				CE0EC73C2A2772E40058967B /* EventRow.swift in Sources */,
+				CE0EC7402A2773280058967B /* SymbolPicker.swift in Sources */,
 				CE0EC6FF2A276CF00058967B /* DatePlannerApp.swift in Sources */,
+				CE0EC7362A2772670058967B /* ColorOption.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
